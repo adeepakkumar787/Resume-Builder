@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c3e61189;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #0ec3eb;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, textarea, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #29eae0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #62df7f;
+    color: #191919;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #55b46a;
+}
+
+#resume-preview {
+    background-color: #4dd0dc;
+    border: 1px solid #8cc628;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#resume-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.resume-section {
+    margin-bottom: 20px;
+}
+
+.resume-section h3 {
+    margin-bottom: 10px;
+    color: #0cb0be;
+    background-color: #eb1313;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.resume-section p {
+    margin: 5px 0;
+    background-color: #fc5412;
+    padding: 10px;
+    border-radius: 5px;
+}
